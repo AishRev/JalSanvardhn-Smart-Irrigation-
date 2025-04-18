@@ -9,9 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css'
 import Home from './pages/Home.jsx';
-// import '../src/global.css';
-// import Layout from "./components/ui/layout.jsx";
-import Claven from './pages/Claven.jsx';
+
 
 function App() {
   return (

@@ -419,6 +419,7 @@ def predict_disease():
         3. Suggest steps to prevent recurrence of the disease.
         """
 
+
         model = genai.GenerativeModel("models/gemini-1.5-pro-latest")
         response = model.generate_content(prompt)
         suggestions = clean_gemini_response(response.text)
